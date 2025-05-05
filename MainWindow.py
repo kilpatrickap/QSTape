@@ -775,7 +775,7 @@ class MainWindow(QMainWindow):
     def update_ui_from_project_data(self):
         """Updates window title, status bar, actions based on loaded project."""
         if self.project_data:
-            title = f"{self.project_data.get('name', 'Untitled')} - PyTakeoff"
+            title = f"{self.project_data.get('name', 'Untitled')} - QSTape"
             if self.current_project_path:
                 title += f" [{os.path.basename(self.current_project_path)}]"
             self.setWindowTitle(title)
@@ -784,7 +784,7 @@ class MainWindow(QMainWindow):
             # Mark window as unmodified when loading/saving
             self.setWindowModified(False)
         else:
-            self.setWindowTitle("PyTakeoff - Advanced")
+            self.setWindowTitle("QSTape")
             self.update_scale_status() # Resets scale text
             self.update_page_status() # Resets page text
             self.setWindowModified(False)
