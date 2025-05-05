@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75e8cabb-4484-441f-99f1-609279249724" name="Changes" comment="UI fit 1500x750">
+    <list default="true" id="75e8cabb-4484-441f-99f1-609279249724" name="Changes" comment="UI extension changed from .ptf to .qst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/me.ptf" beforeDir="false" afterPath="$PROJECT_DIR$/me.ptf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746432492529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UI extension changed from .ptf to .qst">
+      <option name="closed" value="true" />
+      <created>1746433058789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746433058789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -132,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="QSTape 1st commit." />
     <MESSAGE value="UI fit 1500x750" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI fit 1500x750" />
+    <MESSAGE value="UI extension changed from .ptf to .qst" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI extension changed from .ptf to .qst" />
   </component>
 </project>
