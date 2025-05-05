@@ -300,14 +300,14 @@ class MainWindow(QMainWindow):
 
             # Ask for project save location
             project_path, _ = QFileDialog.getSaveFileName(
-                 self, "Save Project As", "", "PyTakeoff Project (*.ptf)"
+                 self, "Save Project As", "", "QSTape Project (*.qst)"
             )
             if not project_path:
                 return # User cancelled
 
             # Ensure correct extension
-            if not project_path.lower().endswith(".ptf"):
-                 project_path += ".ptf"
+            if not project_path.lower().endswith(".qst"):
+                 project_path += ".qst"
 
             # Close existing project if any
             self.close_project()
@@ -325,7 +325,7 @@ class MainWindow(QMainWindow):
 
             # Initialize project data
             self.project_data = {
-                'name': os.path.basename(project_path).replace('.ptf', ''),
+                'name': os.path.basename(project_path).replace('.qst', ''),
                 'source_path': file_path,
                 'source_type': 'pdf' if file_path.lower().endswith('.pdf') else 'image',
                 'current_page': 0,
@@ -350,7 +350,7 @@ class MainWindow(QMainWindow):
     def open_project(self):
         if self.check_unsaved_changes():
             project_path, _ = QFileDialog.getOpenFileName(
-                self, "Open Project", "", "PyTakeoff Project (*.ptf)"
+                self, "Open Project", "", "QSTape Project (*.qst)"
             )
             if project_path:
                 self.close_project() # Close current before opening new
@@ -445,13 +445,13 @@ class MainWindow(QMainWindow):
              return False
 
          project_path, _ = QFileDialog.getSaveFileName(
-             self, "Save Project As", "", "PyTakeoff Project (*.ptf)"
+             self, "Save Project As", "", "QSTape Project (*.qst)"
          )
          if not project_path:
              return False # User cancelled
 
-         if not project_path.lower().endswith(".ptf"):
-              project_path += ".ptf"
+         if not project_path.lower().endswith(".qst"):
+              project_path += ".qst"
 
          # Get current data before potentially closing the old connection
          current_metadata = self.project_data.copy()
@@ -466,7 +466,7 @@ class MainWindow(QMainWindow):
          self.project_manager.connect(self.current_project_path)
 
          # Update metadata with new name if needed
-         current_metadata['name'] = os.path.basename(project_path).replace('.ptf', '')
+         current_metadata['name'] = os.path.basename(project_path).replace('.qst', '')
          self.project_data = current_metadata # Update internal state
 
          # Save data to the new database
