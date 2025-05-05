@@ -56,8 +56,8 @@ class LinearMeasurementItem(QGraphicsLineItem):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("PyTakeoff - Advanced")
-        self.setGeometry(100, 100, 1200, 800)
+        self.setWindowTitle("QSTape")
+        self.setGeometry(0, 0, 1500, 750)
 
         # --- State Variables ---
         self.project_manager = ProjectManager()

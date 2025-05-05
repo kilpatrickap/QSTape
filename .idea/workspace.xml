@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75e8cabb-4484-441f-99f1-609279249724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/QSTape.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphicsView.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ID_23404.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainWindow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectManager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QSTape_sample_plan.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="75e8cabb-4484-441f-99f1-609279249724" name="Changes" comment="QSTape 1st commit." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kilpatrickap/QSTape",
+    "accountId": "b2b34f02-6aa0-4641-8b55-d64aff92f9a3"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -103,10 +96,23 @@
       <option name="presentableId" value="Default" />
       <updated>1743670085309</updated>
     </task>
+    <task id="LOCAL-00001" summary="QSTape 1st commit.">
+      <option name="closed" value="true" />
+      <created>1746432161677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746432161677</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.cfg" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="QSTape 1st commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="QSTape 1st commit." />
   </component>
 </project>

@@ -7,7 +7,7 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     # Optional: Set App details
     app.setOrganizationName("MyCompany")
-    app.setApplicationName("PyTakeoff")
+    app.setApplicationName("QSTape")
 
     window = MainWindow()
     window.show()
